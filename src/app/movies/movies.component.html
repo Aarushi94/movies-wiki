@@ -1,0 +1,14 @@
+<h3>Latest movies</h3>
+<div class="link-right">
+    <a [routerLink]="list" style="cursor:pointer">More</a>
+</div>
+
+<div class="row">
+    <div class="card-deck">
+        <app-movie-item *ngFor="let latestMovie of latestMovies" [movie]="latestMovie"></app-movie-item>
+    </div>
+</div>
+
+<div class="row">
+    <router-outlet></router-outlet>
+</div>

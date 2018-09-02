@@ -1,0 +1,5 @@
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    
+}
